@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #74ab74;
+}
+
+#overall-box {
+   background-color: #74ab74; 
+   border: 2px solid #ffff;
+   box-sizing: border-box;
+   width: 600px;
+   height: 100%;
+   margin-top: 80px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+h1, h2, h3 {
+    color: #ffff;
+}
+
+#age-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
